@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+    
+.container {
+    background-image: linear-gradient(to top right,#cdb4db , #ffedd2);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-main {
+    width: 458px;
+    height: 486px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 15px 6px #cdb4db;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-img {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgba(205, 180, 219, .15);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-img img {
+    width: 135px;
+    height: 135px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+}
+
+.texto {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto h1 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.texto p {
+    font-size: 15px;
+}
+
+.butn {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.bot1 {
+    background-image: linear-gradient(to right,#fa3967, #fa9639);
+    border: none;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bot1 img {
+    height: 25px;
+    width: 25px;
+}
+
+.bot2 {
+    background-color: #ffedd2;
+    border: none;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bot2 img {
+    height: 25px;
+    width: 25px;
+}
+
+.bot1:hover{
+    background-image: linear-gradient(to right,#fa396681, #fa963986);
+}
+
+.bot2:hover {
+    background-color: #fdc571ab;
+}
